@@ -1,17 +1,46 @@
 body {
+    border-style: outset;
+    border-radius: 2px;
+    border-width: 1px;
     background-color: #eee;
 }
-
-.caja {
-    margin: 8px;
-    padding: 8px;
-    border-style: solid;
-    border-width: 8px;
-    border-color: #faa;
-    border-left: 6px solid #afa;
-    background-color: #aaf;
-    border-radius: 8px;
-    height: 100px;
-    width: 100px;
-    color: #575;
+.cabecera {
+    background-color: #fff;
+    margin: 1px;
+    border-style: solid ;
+    border-width: 0px;
+    border-bottom-width: 1px;
+    border-color: lightgrey;
+    padding: 10px;
+    
+}
+.contenido {
+    background-color: #fff;
+    margin: 1px;
+    border-style: solid ;
+    border-width: 0px;
+    border-bottom-width: 1px;
+    border-color: lightgrey;
+    padding: 10px;
+}
+.botones {
+    background-color: #fff;
+    margin: 1px;
+    border-style: solid ;
+    border-width: 0px;
+    border-color: lightgrey;
+    padding: 10px;
+}
+#btnAceptar {
+    border: 0px;
+    background-color: #009fff;
+    color: #fff;
+    padding: 5px;
+}
+#btnCancelar {
+    border: 0px;
+    background-color: gray;
+    color: #aaa;
+    padding: 5px;
+}
 }
